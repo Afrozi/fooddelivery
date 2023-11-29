@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navigation{
+    height: 100%;
+    width: 100%;
+    background-image: url("/images/Image.png");
+    opacity: 0.9;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: sticky;
+}
+.container{
+    display: flex;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+}
+li a{
+   text-decoration: none;
+   padding: 20px;
+   font-size: 20px;
+   color: white;
+   font-weight: bold;
+}
+.package{
+   padding:10px 10% 20px 0px;
+}
+.package img{
+    width: 100%;
+}
+.logo{
+    padding: 10px 0px 0px 160px;
+}
+.logo img {
+    width: 100%;
+}
+.home-icon{
+    height: 100%;
+    width: 100%;
+    background-image: url("/images/Image.png");
+    opacity: 0.9;
+    padding: 0px 0px 50px 0px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-container{
+    display: flex;
+}
+.second-div{
+    padding: 16% 0px 0px 160px;
+}
+
+.first-div img{
+    width: 100%;
+    padding: 10px 50px 0px 0px;
+}
+.header{
+    color: white;
+   font-weight: bold;
+   font-family: sans-serif;
+    font-size: 50px;
+}
+i{
+    font-size: 30px;
+}
+.passage{
+    color: white;
+    font-size: 20px;
+}
+.input-btn{
+    padding: 10px;
+    font-size: 20px;
+    background-color:yellow;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.input-button{
+    padding: 10px;
+    font-size: 20px;
+    background:none;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 40px;
+    cursor: pointer;
+}

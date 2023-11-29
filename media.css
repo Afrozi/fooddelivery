@@ -1,0 +1,39 @@
+@media only screen and (max-width: 800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .package{
+        padding: 0px 0px 0px 50%;
+    }
+    .package img{
+        width: 20%;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .second-div{
+        padding: 20% 0px 0px 20px;
+    }
+    .header{
+        font-size: 30px;
+    }
+    .input-btn{
+        margin: 10px;
+        font-size: 15px;
+    }
+    .input-button{
+        font-size: 10px;
+       margin-left: 10px;
+    }
+    .logo{
+        padding: 10px 0px 0px 20px;
+    }
+    .logo img{
+           width: 50%;
+    }
+}
