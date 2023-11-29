@@ -6,7 +6,7 @@
 .navigation{
     height: 100%;
     width: 100%;
-    background-image: url("/images/Image.png");
+    background-image: url("Image.png");
     opacity: 0.9;
     background-size:cover;
     background-position: center;
@@ -45,7 +45,7 @@ li a{
 .home-icon{
     height: 100%;
     width: 100%;
-    background-image: url("/images/Image.png");
+    background-image: url("Image.png");
     opacity: 0.9;
     padding: 0px 0px 50px 0px;
     background-size:cover;
